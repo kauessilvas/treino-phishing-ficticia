@@ -8,6 +8,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portal Acadêmico — Fictícia S.A.</title>
   <link rel="stylesheet" href="css/estilo.css">
+    <style>
+    /* ---- Estilos exclusivos da versão de TREINO (não existem no site-alvo) ---- */
+    .faixa-treino {
+      background: repeating-linear-gradient(45deg,#b00020,#b00020 14px,#8a0019 14px,#8a0019 28px);
+      color:#fff; text-align:center; font-weight:700; font-size:14px;
+      padding:10px 12px; letter-spacing:.3px;
+    }
+    .faixa-treino span { background:rgba(0,0,0,.25); padding:2px 8px; border-radius:4px; }
+
+    /* Overlay educativo exibido ao "enviar" o formulário */
+    #overlay-educativo {
+      display:none; position:fixed; inset:0; z-index:50;
+      background:rgba(15,25,35,.92); color:#fff; overflow:auto; padding:40px 16px;
+    }
+    #overlay-educativo .painel {
+      max-width:640px; margin:0 auto; background:#13202c;
+      border:2px solid #b00020; border-radius:14px; padding:32px;
+    }
+    #overlay-educativo h2 { color:#ff6b7f; font-size:24px; margin-bottom:8px; }
+    #overlay-educativo p.intro { color:#cfd9e2; margin-bottom:20px; }
+    #overlay-educativo ol { margin:0 0 20px 20px; }
+    #overlay-educativo li { margin:10px 0; line-height:1.5; }
+    #overlay-educativo li strong { color:#ffd27f; }
+    #overlay-educativo code { background:rgba(255,255,255,.1); padding:1px 5px; border-radius:4px; font-size:13px; }
+    #overlay-educativo .fechar {
+      background:#b00020; color:#fff; border:none; padding:11px 18px;
+      border-radius:8px; font-size:15px; font-weight:600; cursor:pointer;
+    }
+    #overlay-educativo .fechar:hover { background:#8a0019; }
+    #overlay-educativo .nota { margin-top:16px; font-size:12px; color:#8fa3b5; }
+  </style>
 </head>
 <body>
   <!-- =====================================================================
@@ -15,6 +46,10 @@
        "Fictícia S.A." é uma instituição inventada. Nenhuma marca real.
        Este é o site LEGÍTIMO que os alunos vão espelhar no laboratório.
        ===================================================================== -->
+
+  <div class="faixa-treino">
+    ⚠️ <span>AMBIENTE DE TREINO — PHISHING SIMULADO</span> &nbsp; Página de exemplo. Não insira senhas reais.
+  </div>
 
   <!-- barra superior fina -->
   <div class="barra-fina">
